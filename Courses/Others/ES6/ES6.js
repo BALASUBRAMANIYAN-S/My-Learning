@@ -15,3 +15,12 @@ greet(); // Hello Guest
 // Destructuring arrays
 let [x, y] = [10, 20];
 console.log(x, y); // 10 20
+
+// Template Literals
+const name = "Bala";
+console.log(`Hello ${name}`);
+
+// Spread Operator ...
+const a = [1, 2];
+const b = [...a, 3, 4];
+console.log(b); // [1, 2, 3, 4]

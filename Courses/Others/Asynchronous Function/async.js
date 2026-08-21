@@ -5,11 +5,3 @@ setTimeout(() => {
 }, 1000);
 
 console.log("End");
-
-
-
-/*
-Start 
-End
-Async Task Done
-*/

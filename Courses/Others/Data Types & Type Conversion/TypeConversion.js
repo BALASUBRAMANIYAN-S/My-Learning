@@ -1,11 +1,10 @@
-let a = "10";           // string
-console.log(typeof a);  // "string"
+let a = "10";
+console.log(typeof a);
 
-let num = Number(a);    // convert to number
-console.log(typeof num); // "number"
+let num = Number(a);
+console.log(typeof num);
 
-let str = String(123);  
-console.log(str);        // "123"
-
-console.log(Boolean(""));  // false (empty string is falsy)
-console.log(Boolean("Hi")); // true
+let str = String(123);
+console.log(str);
+console.log(Boolean(""));
+console.log(Boolean("Hi"));

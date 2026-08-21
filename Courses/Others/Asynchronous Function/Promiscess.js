@@ -1,5 +1,4 @@
 let myPromises = new Promise((myAccept, myReject) => {
-  
   myAccept("This Is Response");
 });
 
