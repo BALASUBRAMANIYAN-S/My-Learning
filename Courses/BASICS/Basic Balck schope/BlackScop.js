@@ -4,6 +4,3 @@ if (true) {
 }
 
 console.log(name);
-
-// Var is a function scope to access a entire code
-// Const & Let Block Scope only access a block
