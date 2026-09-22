@@ -1,0 +1,284 @@
+======================================================================
+               COMPLETE DSA ROADMAP FOR BEGINNERS
+======================================================================
+
+----------------------------------------------------------------------
+[ PHASE 0: BEFORE DSA (PREREQUISITES) ]
+----------------------------------------------------------------------
+Language: Pick one (e.g., JavaScript, C++, Python, Java). 
+Since you work with JS, you can comfortably learn DSA in JavaScript.
+
+Be comfortable with:
+[ ] Variables & Data Types
+[ ] If / Else Statements
+[ ] Loops (For, While, Nested)
+[ ] Functions / Methods
+[ ] Arrays & Strings basics
+[ ] Basic Object-Oriented Programming (OOP)
+[ ] Recursion Basics
+[ ] Time & Space Complexity basics
+
+
+======================================================================
+                   CORE DSA LEARNING PATH
+======================================================================
+
+1. TIME & SPACE COMPLEXITY
+----------------------------------------------------------------------
+Learn this first! It helps you understand why one solution is better.
+Topics:
+[ ] Big-O Notation: O(1), O(log n), O(n), O(n log n), O(n^2)
+[ ] Space complexity (Auxiliary space vs Input space)
+[ ] Best / Average / Worst case scenarios
+Practice: Analyze simple loops, nested loops, array operations, and 
+searching algorithms.
+
+
+2. ARRAYS ⭐⭐⭐
+----------------------------------------------------------------------
+Master arrays before moving on to anything else.
+Learn:
+[ ] Traversal, Insert, Delete, Searching, Reverse, Min/Max
+[ ] Prefix Sum
+[ ] Two Pointer technique
+[ ] Sliding Window technique
+[ ] Kadane's Algorithm (Max Subarray)
+[ ] Frequency counting
+
+Problems (Target: 20-30):
+[ ] Two Sum
+[ ] Best Time to Buy and Sell Stock
+[ ] Maximum Subarray
+[ ] Move Zeroes
+[ ] Remove Duplicates
+[ ] Rotate Array
+[ ] Product of Array Except Self
+
+
+3. STRINGS ⭐⭐⭐
+----------------------------------------------------------------------
+Learn:
+[ ] Character frequency & String manipulation
+[ ] Palindromes & Anagrams
+[ ] Substrings
+[ ] Two pointers & Sliding window for strings
+
+Problems (Target: 15-20):
+[ ] Valid Anagram
+[ ] Valid Palindrome
+[ ] Longest Substring Without Repeating Characters
+[ ] Longest Common Prefix
+[ ] Group Anagrams
+
+
+4. HASHING ⭐⭐⭐
+----------------------------------------------------------------------
+Learn:
+[ ] HashMap / HashSet (In JS: Map, Set, Objects)
+[ ] Frequency map
+[ ] Lookup optimization (O(1) lookups)
+
+Problems (Target: 15-20):
+[ ] Two Sum
+[ ] Contains Duplicate
+[ ] Group Anagrams
+[ ] Top K Frequent Elements
+[ ] Longest Consecutive Sequence
+
+
+5. LINKED LIST
+----------------------------------------------------------------------
+Learn:
+[ ] Singly Linked List & Doubly Linked List
+[ ] Insert, Delete, Reverse operations
+[ ] Fast & Slow pointers (Tortoise and Hare algorithm)
+
+Problems (Target: 15-20):
+[ ] Reverse Linked List
+[ ] Middle of Linked List
+[ ] Linked List Cycle
+[ ] Merge Two Sorted Lists
+[ ] Remove Nth Node From End
+[ ] Intersection of Two Linked Lists
+
+
+6. STACK & QUEUE
+----------------------------------------------------------------------
+Learn Stack (LIFO):
+[ ] Push / Pop operations
+[ ] Monotonic Stack
+Learn Queue (FIFO):
+[ ] Enqueue / Dequeue
+[ ] Circular Queue & Deque
+
+Problems (Target: 15-20):
+[ ] Valid Parentheses
+[ ] Min Stack
+[ ] Next Greater Element
+[ ] Daily Temperatures
+[ ] Evaluate Reverse Polish Notation
+[ ] Implement Queue using Stacks
+
+
+7. RECURSION ⭐⭐⭐
+----------------------------------------------------------------------
+Goal: Understand recursive thinking, don't get stuck on math.
+Learn:
+[ ] Base case & Recursive case
+[ ] Call stack execution
+[ ] Backtracking basics
+
+Problems:
+[ ] Factorial & Fibonacci
+[ ] Sum of array
+[ ] Reverse string
+[ ] Generate subsets
+[ ] Generate permutations
+
+
+8. BINARY SEARCH ⭐⭐⭐
+----------------------------------------------------------------------
+Learn:
+[ ] Normal binary search
+[ ] Search space concepts
+[ ] Lower/upper bound concepts
+[ ] Binary search on answer
+
+Problems (Target: 15):
+[ ] Binary Search
+[ ] Search Insert Position
+[ ] First and Last Position
+[ ] Search in Rotated Sorted Array
+[ ] Find Peak Element
+[ ] Koko Eating Bananas
+
+
+9. TREES ⭐⭐⭐⭐ (Major Interview Topic)
+----------------------------------------------------------------------
+Learn Structure: Tree -> Binary Tree -> BST
+Learn Traversals:
+[ ] Preorder, Inorder, Postorder, Level Order (BFS)
+Learn Concepts:
+[ ] Height, Diameter, Balanced tree
+[ ] Lowest Common Ancestor (LCA)
+[ ] BST operations
+
+Problems (Target: 20-25):
+[ ] Maximum Depth
+[ ] Invert Binary Tree
+[ ] Same Tree
+[ ] Binary Tree Level Order Traversal
+[ ] Diameter of Binary Tree
+[ ] Validate BST
+[ ] Lowest Common Ancestor
+
+
+10. HEAP / PRIORITY QUEUE
+----------------------------------------------------------------------
+Learn:
+[ ] Min Heap & Max Heap
+[ ] Insert, Delete, Heapify operations
+[ ] Priority Queue implementation
+
+Problems (Target: 10-15):
+[ ] Kth Largest Element
+[ ] Top K Frequent Elements
+[ ] Merge K Sorted Lists
+[ ] Find Median from Data Stream
+
+
+11. GRAPHS ⭐⭐⭐⭐
+----------------------------------------------------------------------
+Learn in this exact order:
+Graph -> Representation (Adjacency List/Matrix) -> BFS -> DFS -> 
+Connected Components -> Cycle Detection -> Shortest Path -> Topo Sort
+
+Advanced Algorithms:
+[ ] Dijkstra's Algorithm
+[ ] Union Find / Disjoint Set Union (DSU)
+[ ] Minimum Spanning Tree (Prim's / Kruskal's)
+
+Problems (Target: 20-25):
+[ ] Number of Islands
+[ ] Clone Graph
+[ ] Course Schedule
+[ ] Rotting Oranges
+[ ] Pacific Atlantic Water Flow
+[ ] Network Delay Time
+
+
+12. BACKTRACKING
+----------------------------------------------------------------------
+Learn:
+[ ] Decision tree format
+[ ] The Pattern: Choose -> Explore -> Undo
+
+Problems (Target: 10-15):
+[ ] Subsets
+[ ] Permutations
+[ ] Combination Sum
+[ ] N-Queens
+[ ] Sudoku Solver
+[ ] Word Search
+
+
+13. DYNAMIC PROGRAMMING ⭐⭐⭐⭐
+----------------------------------------------------------------------
+*Note: Do not start DP until you are strong in Recursion & Trees.*
+Learn Flow:
+Recursion -> Memoization (Top-Down) -> Tabulation (Bottom-Up) -> Space Opt.
+
+Problems (Target: 20-30):
+[ ] Climbing Stairs
+[ ] House Robber
+[ ] Coin Change
+[ ] 0/1 Knapsack
+[ ] Longest Common Subsequence (LCS)
+[ ] Longest Increasing Subsequence (LIS)
+[ ] Unique Paths
+
+
+14. ADVANCED TOPICS (Optional / Later stage)
+----------------------------------------------------------------------
+Only tackle these after mastering steps 1-13:
+[ ] Trie (Prefix Tree)
+[ ] Segment Tree / Fenwick Tree
+[ ] Advanced Graph Algorithms
+[ ] Bit Manipulation
+[ ] Advanced DP (DP on Trees, Bitmask DP)
+[ ] String algorithms (KMP, Rabin-Karp)
+
+
+======================================================================
+                    🗺️ COMPLETE ORDER MAP
+======================================================================
+  [1] Programming Basics
+          ↓
+  [2] Time & Space Complexity
+          ↓
+  [3] Arrays
+          ↓
+  [4] Strings
+          ↓
+  [5] Hashing
+          ↓
+  [6] Linked List
+          ↓
+  [7] Stack & Queue
+          ↓
+  [8] Recursion
+          ↓
+  [9] Binary Search
+          ↓
+ [10] Trees
+          ↓
+ [11] Heap / Priority Queue
+          ↓
+ [12] Graphs
+          ↓
+ [13] Backtracking
+          ↓
+ [14] Dynamic Programming
+          ↓
+ [15] Advanced DSA
+======================================================================
