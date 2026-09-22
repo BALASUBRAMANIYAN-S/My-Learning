@@ -1,0 +1,103 @@
+======================================================================
+           DSA ROADMAP EXPANSION PACK (PYTHON EDITION)
+======================================================================
+
+----------------------------------------------------------------------
+[ MISSING ALGORITHMIC PATTERNS ]
+----------------------------------------------------------------------
+Add these to your roadmap. They are highly frequently asked!
+
+1. GREEDY ALGORITHMS (After Trees / Heaps)
+Learn: Local optimum choices to reach global optimum.
+Problems:
+[ ] Jump Game
+[ ] Task Scheduler
+[ ] Gas Station
+[ ] Maximum Subarray (Kadane's - also fits here)
+
+2. INTERVALS (Usually studied with Arrays or Greedy)
+Learn: Sorting by start time, merging overlapping intervals.
+Problems:
+[ ] Merge Intervals
+[ ] Insert Interval
+[ ] Non-overlapping Intervals
+[ ] Meeting Rooms I & II
+
+3. CYCLE SORT (Important Array Pattern)
+Learn: Used when dealing with numbers in a given range (1 to N).
+Problems:
+[ ] Missing Number
+[ ] Find the Duplicate Number
+[ ] Find All Numbers Disappeared in an Array
+
+4. MATH & GEOMETRY (Basic Level)
+Learn:
+[ ] Prime Numbers (Sieve of Eratosthenes)
+[ ] GCD / LCM (Euclidean Algorithm)
+[ ] Basic Bitwise XOR (e.g., Single Number problem)
+
+
+======================================================================
+               🐍 PYTHON-SPECIFIC DSA TOOLKIT 🐍
+======================================================================
+Unlike other languages, Python has built-in modules that make DSA 
+much easier. DO NOT reinvent the wheel. Learn these standard libraries:
+
+[ ] 1. COLLECTIONS MODULE (Crucial!)
+    - collections.deque: MUST use this for Queues and BFS. 
+      (Using a standard list `queue.pop(0)` is O(n) time, 
+      `deque.popleft()` is O(1) time).
+    - collections.Counter: Instantly creates frequency hash maps.
+      Example: Counter("hello") -> {'h':1, 'e':1, 'l':2, 'o':1}
+    - collections.defaultdict: Great for Graph Adjacency Lists to 
+      avoid KeyError.
+
+[ ] 2. HEAPQ MODULE (For Heaps/Priority Queues)
+    - Python only has a built-in Min-Heap: `import heapq`
+    - To make a Max-Heap, multiply all values by -1 before pushing, 
+      and multiply by -1 again when popping.
+
+[ ] 3. FUNCTOOLS (Cheat code for Dynamic Programming)
+    - @cache or @lru_cache(None)
+    - If you write a recursive function for DP, just put @cache 
+      above it, and Python does the Memoization automatically!
+
+[ ] 4. BUILT-IN FUNCTIONS
+    - divmod(a, b): Returns quotient and remainder at once.
+    - math.inf / -math.inf: Use this to initialize max/min variables.
+    - list.sort(key=lambda x: ...): Learn how to use lambda functions 
+      to sort arrays of intervals, strings, or objects.
+
+[ ] 5. SLICING & REVERSING
+    - Reversing an array/string: `arr[::-1]`
+    - Getting a substring: `string[start:end]`
+
+[ ] 6. RECURSION LIMIT
+    - Python has a default recursion limit of 1000. For deep DFS 
+      graphs, you might need:
+      `import sys`
+      `sys.setrecursionlimit(2000)`
+
+
+======================================================================
+               WHERE TO INSERT INTO YOUR ORDER MAP
+======================================================================
+  [1] Programming Basics (Learn Python Specifics here)
+  [2] Time & Space Complexity
+  [3] Arrays
+      -> + [Intervals Pattern]
+      -> + [Cycle Sort Pattern]
+  [4] Strings
+  [5] Hashing (Learn collections.Counter here)
+  [6] Linked List
+  [7] Stack & Queue (Learn collections.deque here)
+  [8] Recursion
+  [9] Binary Search
+ [10] Trees
+ [11] Heap / Priority Queue (Learn heapq module here)
+ [12] Graphs (Learn defaultdict here)
+      -> + [Greedy Algorithms]
+ [13] Backtracking
+ [14] Dynamic Programming (Learn @cache here)
+ [15] Advanced DSA / Math / Bit Manipulation
+======================================================================
