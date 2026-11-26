@@ -6,7 +6,7 @@ updated: 2026-11-26 15:53
 # DSA
 
 **hjgr eiuhiog ureg98iuimcnxiu**
-![image](images/1-1.webp)
+![image](images/1
 `const kpiTiles = computed(() => [
   { label: 'Students', value: num(k.value.total_students), count: k.value.total_students, icon: 'account-group', color: 'primary', title: 'All students', list: {} },
   { label: 'Average score', value: `${k.value.avg_score_raw || 0}%`, icon: 'target', color: 'warning' },
